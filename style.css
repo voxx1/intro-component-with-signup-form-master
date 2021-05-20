@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-size: 16px;
+}
+
+.wrapper {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    margin-bottom: 60px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    margin: 60px 20px 30px 20px;
+}
+
+.info p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.block {
+    background-color: hsl(248, 32%, 49%);
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+}
+
+.block span {
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 0.7rem;
+    -webkit-box-shadow: 0px 10px 8px 0px rgba(50, 50, 50, 0.28);
+    -moz-box-shadow:    0px 10px 8px 0px rgba(50, 50, 50, 0.28);
+    box-shadow:         0px 10px 8px 0px rgba(50, 50, 50, 0.28);
+}
+
+.object {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.input {
+    display: block;
+    width: 85%;
+    padding: 15px 30px 15px 30px;
+    margin: 20px 20px 0px 22px;
+    border: 1px solid lightgray;
+    border-radius: 0.3rem;
+    text-align: left;
+    position: relative;
+}
+
+
+.icon {
+    position: absolute;
+    display: block;
+}
+
+#icon1 {
+    top: 29px;
+    left: 240px;
+}
+#icon2 {
+    top: 29px;
+    left: 240px;
+}
+#icon3 {
+    top: 29px;
+    left: 240px;
+}
+#icon4 {
+    top: 29px;
+    left: 240px;
+}
+
+
+::placeholder {
+    font-weight: bold;
+    opacity: 1; /* Firefox */
+  }
+
+.error-text {
+    display: block;
+    color: hsl(0, 100%, 74%) ;
+    text-align: right;
+    font-size: 12px;
+    margin-right: 25px;
+    margin-top: 3px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.form .normal {
+    font-size: 12px;
+    text-align: center;
+    margin:30px 20px 30px 20px;
+    opacity: 0.9 ;
+}
+
+#button {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding: 15px 30px 15px 30px;
+    font-weight: 600;
+    width: 85%;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 5px 14px -5px rgba(0,0,0,0.75);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form .bold {
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
+}
+
+.attribution { font-size: 13px; text-align: center; color:white; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 900px) {
+    .wrapper {
+        width: 1400px;
+        min-height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin: 70px 0 40px 0;
+    }
+    .main {
+        display: block;
+        width: 70%;
+    }
+
+    .input {
+        margin: 20px 20px 0px 43px;
+    }
+    .info {
+        margin-top: 150px;
+        font-size: 35px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .info h2 {
+        text-align: left;
+    }
+    .info p {
+        text-align: left;
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    #icon1 {
+        top: 31px;
+        left: 470px;
+    }
+    #icon2 {
+        top: 31px;
+        left: 470px;
+    }
+    #icon3 {
+        top: 31px;
+        left: 470px;
+    }
+    #icon4 {
+        top: 31px;
+        left: 470px;
+    }
+    .error-text {
+        margin-right: 45px;
+        font-size: 11px;
+        margin-top: 4px;
+    }
+}
